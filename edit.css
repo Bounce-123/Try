@@ -1,0 +1,21 @@
+body{
+	background-color: rgb(255, 255, 255);
+	background-size: cover;
+}
+center{
+	height: 8cm;
+	width:9cm ;
+	background-color: darkred;
+	margin-left:2cm ;
+	
+}
+.container{
+      width: 650px;
+    height:15cm ;
+    background-color:silver opacity 20%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px ;
+    box-shadow: 0 0 25px 0  ;  
+    margin-left: 10cm;
+}

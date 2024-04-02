@@ -1,0 +1,11 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    First_Name VARCHAR(255),
+    Last_name VARCHAR(255),
+    Email VARCHAR(255),
+   Phone_number VARCHAR(255),
+   Address VARCHAR(255)
+    );
+
+ALTER TABLE users CHANGE COLUMN first_name firstname VARCHAR(255) NOT NULL;
+
